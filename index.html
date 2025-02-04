@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Funkcja kwadratowa</title>
+  </head>
+  <body>
+    <main>
+      <form action="" method="get">
+        <label
+          >Podaj a:
+          <input
+            type="number"
+            name="numberA"
+            id="numberA"
+            min="-10000"
+            max="10000"
+            step="1"
+            placeholder="Podaj współczynnik a: "
+            autofocus
+        /></label>
+        <label
+          >Podaj b:
+          <input
+            type="number"
+            name="numberB"
+            id="numberB"
+            min="-10000"
+            max="10000"
+            step="1"
+            placeholder="Podaj współczynnik b: "
+        /></label>
+        <label
+          >Podaj c:
+          <input
+            type="number"
+            name="numberC"
+            id="numberC"
+            min="-10000"
+            max="10000"
+            step="1"
+            placeholder="Podaj współczynnik c: "
+        /></label>
+        <button class="result-button">Oblicz</button>
+
+        <div class="result"></div>
+      </form>
+    </main>
+  </body>
+</html>
