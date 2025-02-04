@@ -2,10 +2,6 @@
 
 Projekt to prosta aplikacja webowa umożliwiająca obliczanie miejsc zerowych funkcji kwadratowej oraz jej wyróżnika (Δ).
 
-## **Demo**
-
-Aplikacja dostępna jest pod adresem: [portfolio-website.ct8.pl](http://portfolio-website.ct8.pl)
-
 ## **Technologie**
 
 - **HTML**
